@@ -13,7 +13,3 @@ yoichi = Person("Kimira Yoichi")
 roku = Dog("roku","siba",yoichi)
 
 print(roku.owner.name)
-
-
-
-

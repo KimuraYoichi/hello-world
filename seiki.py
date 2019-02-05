@@ -27,16 +27,13 @@ def mad_libs(mls):
     __hint_hint__ only
     __hint__.
     """
-    hints = re.findall("__.*?__",
-                      mls)
+    hints = re.findall("__.*?__",mls)
     if hints is not None:
         for word in hints:
             q = "Enter a {}"\
                    .format(word)
             new = input(q)
-            mls = mls.replace(word,
-                              new,
-                              1)
+            mls = mls.replace(word,new,1)
         print('\n')
         mls = mls.replace("\n", "")
         print(mls)
