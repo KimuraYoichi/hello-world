@@ -1,2 +1,1 @@
-# hello-world
-Restudy
+# 独学プログラマー読書の例題を記入している
